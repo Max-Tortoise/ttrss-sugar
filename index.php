@@ -205,6 +205,7 @@
 							<option value="feed_dates"><?= __('Newest first') ?></option>
 							<option value="date_reverse"><?= __('Oldest first') ?></option>
 							<option value="title"><?= __('Title') ?></option>
+							<option value="title_desc"><?= __('Title DESC') ?></option>
 
 						<?php
 							PluginHost::getInstance()->run_hooks_callback(PluginHost::HOOK_HEADLINES_CUSTOM_SORT_MAP, function ($result) {

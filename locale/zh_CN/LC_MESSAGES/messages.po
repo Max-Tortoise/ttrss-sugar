@@ -178,7 +178,10 @@ msgstr "最早优先"
 
 #: index.php:207 js/CommonFilters.js:435
 msgid "Title"
-msgstr "标题"
+msgstr "标题(A-Z)"
+
+msgid "Title DESC"
+msgstr "标题(Z-A)"
 
 #: index.php:220 index.php:271 classes/rpc.php:630 js/FeedTree.js:92
 #: js/FeedTree.js:131 js/Headlines.js:1573 js/Headlines.js:672

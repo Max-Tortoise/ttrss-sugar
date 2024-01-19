@@ -2484,6 +2484,9 @@ class Feeds extends Handler_Protected {
 			case "title":
 				$query = "ttrss_entries.title, date_entered, updated";
 				break;
+			case "title_desc":
+				$query = "ttrss_entries.title DESC, date_entered, updated";
+				break;
 			case "date_reverse":
 				$query = "updated";
 				$skip_first_id = true;
